@@ -3,7 +3,7 @@ package com.thread.special.runnable;
 /**
  * @ClassName HelloWorldRunnable
  * @Author WuRui
- * @Description //TODO
+ * @Description //TODO Runnable接口创建线程
  * @Date 2020/6/25 9:55
  * @Version 1.0
  **/
