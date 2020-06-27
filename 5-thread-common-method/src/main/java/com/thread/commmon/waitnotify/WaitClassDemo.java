@@ -1,7 +1,5 @@
 package com.thread.commmon.waitnotify;
 
-import com.thread.commmon.test.Parent;
-import com.thread.commmon.test.Son;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -52,6 +50,9 @@ public class WaitClassDemo {
         }
     }
 
+    /**
+     * 调用 notify() notifyAll
+     */
     static class NotifyThread extends Thread {
 
         Object object;
