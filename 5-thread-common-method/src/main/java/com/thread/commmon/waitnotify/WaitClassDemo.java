@@ -64,12 +64,12 @@ public class WaitClassDemo {
 
         @Override
         public void run() {
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
             synchronized (object) {
-                try {
-                    Thread.sleep(1000);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
                 System.out.println(simpleDateFormat.format(new Date()) + " " + getName() + " before wait()");
                 // 唤醒所有线程 用notifyAll()会按照后进先出（LIFO）的原则恢复线程
                 object.notifyAll();
