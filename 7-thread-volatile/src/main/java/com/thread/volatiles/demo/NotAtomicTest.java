@@ -14,7 +14,6 @@ public class NotAtomicTest {
     public void increase() {
         inc++;
     }
-
     public static void main(String[] args) throws InterruptedException {
         final NotAtomicTest test = new NotAtomicTest();
         for (int i = 0; i < 10; i++) {
