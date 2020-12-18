@@ -19,11 +19,8 @@ public class CacheConsistency {
     }
 
     public void add() {
-        if (flag) {
-            int k = a ;
-            if (k == 0){
-                System.out.println(k);
-            }
+        if (flag ) {
+                System.out.println(a);
         }
     }
 

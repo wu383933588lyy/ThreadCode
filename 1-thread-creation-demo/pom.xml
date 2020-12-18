@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.thread.special</groupId>
-	<artifactId>concurrent-special-subject</artifactId>
+	<artifactId>1-thread-creation-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>concurrent-special-subject</name>
 	<description>Demo project for Spring Boot</description>
